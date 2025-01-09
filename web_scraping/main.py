@@ -137,8 +137,8 @@ def test_login(page):
     page.goto("https://sinan.saude.gov.br/sinan/login/login.jsf")
     time.sleep(5)
 
-    username = 'viniciusvieira'  
-    password = 'vinieduvi'       
+    username = '******'  
+    password = ''******''       
 
     perform_login(page, username, password)
 
